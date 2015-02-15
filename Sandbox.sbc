@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>250413120000</ElapsedGameTime>
+  <ElapsedGameTime>258024480000</ElapsedGameTime>
   <SessionName>BORODA</SessionName>
   <SpectatorPosition>
     <Position x="0" y="0" z="-0" />
     <Forward x="-0" y="0" z="-1" />
     <Up x="-0" y="1" z="0" />
   </SpectatorPosition>
-  <CameraController>ThirdPersonSpectator</CameraController>
-  <CameraEntity>0</CameraEntity>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>160313943846849359</CameraEntity>
   <ControlledObject>160313943846849359</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2015-02-15T02:24:19.4638524+03:00</LastSaveTime>
+  <LastSaveTime>2015-02-15T12:24:46.1553754+03:00</LastSaveTime>
   <WorldID>b407d243-153c-40c2-b48b-2a43a4d9672c</WorldID>
   <SpectatorDistance>13.9734678</SpectatorDistance>
   <ConnectedPlayers>
@@ -24,7 +24,7 @@
   </DisconnectedPlayers>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>0</SelectedSlot>
+    <SelectedSlot>3</SelectedSlot>
     <Slots>
       <Slot>
         <Index>0</Index>
@@ -79,10 +79,10 @@
       <Slot>
         <Index>5</Index>
         <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+        <Data xsi:type="MyObjectBuilder_ToolbarItemVoxelHand">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>LargeSteelCatwalk</SubtypeId>
+            <TypeId>MyObjectBuilder_VoxelHandDefinition</TypeId>
+            <SubtypeId>Box</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -91,8 +91,8 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_MotorSuspension</TypeId>
-            <SubtypeId>Suspension3x3</SubtypeId>
+            <TypeId>MyObjectBuilder_Projector</TypeId>
+            <SubtypeId>LargeProjector</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -199,6 +199,13 @@
           <SerialId>0</SerialId>
         </Value>
       </item>
+      <item>
+        <Key xsi:type="xsd:long">206312054501221813</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198024504857</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
     </dictionary>
   </ControlledEntities>
   <Settings xsi:type="MyObjectBuilder_SessionSettings">
@@ -217,7 +224,7 @@
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
     <CargoShipsEnabled>true</CargoShipsEnabled>
-    <EnableSpectator>false</EnableSpectator>
+    <EnableSpectator>true</EnableSpectator>
     <RemoveTrash>false</RemoveTrash>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>true</RespawnShipDelete>
@@ -307,7 +314,7 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855875</IdentityId>
       <DisplayName>Lighter</DisplayName>
-      <CharacterEntityId>0</CharacterEntityId>
+      <CharacterEntityId>206312054501221813</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.08888889" y="1" z="1" />
     </MyObjectBuilder_Identity>
@@ -484,6 +491,18 @@
       <CharacterEntityId>0</CharacterEntityId>
     </MyObjectBuilder_Identity>
   </Identities>
+  <Clients>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198000168026</SteamId>
+      <Name>Mr.Fiend</Name>
+      <IsAdmin>true</IsAdmin>
+    </MyObjectBuilder_Client>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198024504857</SteamId>
+      <Name>Lighter</Name>
+      <IsAdmin>false</IsAdmin>
+    </MyObjectBuilder_Client>
+  </Clients>
   <PreviousEnvironmentHostility>NORMAL</PreviousEnvironmentHostility>
   <AllPlayersData>
     <dictionary>
@@ -553,10 +572,10 @@
               <Slot>
                 <Index>5</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                <Data xsi:type="MyObjectBuilder_ToolbarItemVoxelHand">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-                    <SubtypeId>LargeSteelCatwalk</SubtypeId>
+                    <TypeId>MyObjectBuilder_VoxelHandDefinition</TypeId>
+                    <SubtypeId>Box</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -565,8 +584,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_MotorSuspension</TypeId>
-                    <SubtypeId>Suspension3x3</SubtypeId>
+                    <TypeId>MyObjectBuilder_Projector</TypeId>
+                    <SubtypeId>LargeProjector</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -666,7 +685,7 @@
           </Toolbar>
           <LastActivity>0</LastActivity>
           <CharacterCameraData EntityId="0">
-            <IsFirstPerson>false</IsFirstPerson>
+            <IsFirstPerson>true</IsFirstPerson>
             <Distance>13.973468208697819</Distance>
             <HeadAngle x="0" y="0" />
           </CharacterCameraData>
@@ -712,7 +731,7 @@
         <Value xsi:type="MyObjectBuilder_Player">
           <DisplayName>Lighter</DisplayName>
           <IdentityId>144115188075855875</IdentityId>
-          <Connected>false</Connected>
+          <Connected>true</Connected>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
             <SelectedSlot xsi:nil="true" />
@@ -883,7 +902,7 @@
           </Toolbar>
           <LastActivity>0</LastActivity>
           <CharacterCameraData EntityId="0">
-            <IsFirstPerson>false</IsFirstPerson>
+            <IsFirstPerson>true</IsFirstPerson>
             <Distance>13.973468208697819</Distance>
             <HeadAngle x="0" y="0" />
           </CharacterCameraData>
@@ -921,7 +940,7 @@
             <CameraControllerSettings EntityId="177744953307382431">
               <IsFirstPerson>false</IsFirstPerson>
               <Distance>13.973468208697819</Distance>
-              <HeadAngle x="0" y="0" />
+              <HeadAngle x="23.2875" y="-70.5375061" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="174840362835858358">
               <IsFirstPerson>true</IsFirstPerson>
@@ -1135,7 +1154,7 @@
           </Toolbar>
           <LastActivity>0</LastActivity>
           <CharacterCameraData EntityId="0">
-            <IsFirstPerson>false</IsFirstPerson>
+            <IsFirstPerson>true</IsFirstPerson>
             <Distance>13.973468208697819</Distance>
             <HeadAngle x="0" y="0" />
           </CharacterCameraData>
