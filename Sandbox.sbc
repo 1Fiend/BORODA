@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>1073468000000</ElapsedGameTime>
+  <ElapsedGameTime>1191121440000</ElapsedGameTime>
   <SessionName>BORODA</SessionName>
   <SpectatorPosition>
     <Position x="-371.25" y="407.49999999999994" z="-576.25" />
@@ -9,11 +9,11 @@
     <Up x="-0.4082483" y="0.8164966" z="0.4082483" />
   </SpectatorPosition>
   <CameraController>Entity</CameraController>
-  <CameraEntity>161735313980304221</CameraEntity>
-  <ControlledObject>161735313980304221</ControlledObject>
+  <CameraEntity>212113771586264936</CameraEntity>
+  <ControlledObject>212113771586264936</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2015-02-18T02:07:24.395431+03:00</LastSaveTime>
+  <LastSaveTime>2015-02-18T14:07:27.2875729+03:00</LastSaveTime>
   <WorldID>b407d243-153c-40c2-b48b-2a43a4d9672c</WorldID>
   <SpectatorDistance>10.3115339</SpectatorDistance>
   <ConnectedPlayers>
@@ -24,7 +24,7 @@
   </DisconnectedPlayers>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>0</SelectedSlot>
+    <SelectedSlot xsi:nil="true" />
     <Slots>
       <Slot>
         <Index>0</Index>
@@ -71,8 +71,8 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_Gyro</TypeId>
-            <SubtypeId>LargeBlockGyro</SubtypeId>
+            <TypeId>MyObjectBuilder_Refinery</TypeId>
+            <SubtypeId>LargeRefinery</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -101,8 +101,8 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_Cockpit</TypeId>
-            <SubtypeId>LargeBlockCockpit</SubtypeId>
+            <TypeId>MyObjectBuilder_Drill</TypeId>
+            <SubtypeId>LargeBlockDrill</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -193,7 +193,7 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">161735313980304221</Key>
+        <Key xsi:type="xsd:long">212113771586264936</Key>
         <Value xsi:type="PlayerId">
           <ClientId>76561198020492560</ClientId>
           <SerialId>0</SerialId>
@@ -304,7 +304,7 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855873</IdentityId>
       <DisplayName>Ton</DisplayName>
-      <CharacterEntityId>161735313980304221</CharacterEntityId>
+      <CharacterEntityId>212113771586264936</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0" y="0" z="0.05" />
     </MyObjectBuilder_Identity>
@@ -1044,6 +1044,81 @@
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
     </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856020</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856021</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856022</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856023</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856024</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856025</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856026</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856027</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856028</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856029</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856030</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856031</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856032</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856033</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856034</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
   </Identities>
   <PreviousEnvironmentHostility>NORMAL</PreviousEnvironmentHostility>
   <AllPlayersData>
@@ -1106,8 +1181,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Gyro</TypeId>
-                    <SubtypeId>LargeBlockGyro</SubtypeId>
+                    <TypeId>MyObjectBuilder_Refinery</TypeId>
+                    <SubtypeId>LargeRefinery</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1136,8 +1211,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Cockpit</TypeId>
-                    <SubtypeId>LargeBlockCockpit</SubtypeId>
+                    <TypeId>MyObjectBuilder_Drill</TypeId>
+                    <SubtypeId>LargeBlockDrill</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1239,13 +1314,13 @@
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="151626505220142997">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>13.911276070343636</Distance>
-              <HeadAngle x="23.6250019" y="-7.19993925" />
+              <Distance>11.592729564393867</Distance>
+              <HeadAngle x="17.2875214" y="110.587387" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="167827265605879710">
               <IsFirstPerson>false</IsFirstPerson>
               <Distance>10.311533688614977</Distance>
-              <HeadAngle x="-12.3499861" y="29.3623333" />
+              <HeadAngle x="21.000042" y="360.787079" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="193139453438422938">
               <IsFirstPerson>true</IsFirstPerson>
@@ -1264,8 +1339,23 @@
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="177744953307382431">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>22.220985199869151</Distance>
-              <HeadAngle x="28.4874458" y="67.162796" />
+              <Distance>10.234424181590663</Distance>
+              <HeadAngle x="18.22505" y="-285.524475" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="212000608992632522">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>11.765621785092712</Distance>
+              <HeadAngle x="-4.04999876" y="-39.487484" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="208472058891531766">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>39.296748993960755</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="161735313980304221">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>11.592729564393867</Distance>
+              <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
         </Value>
