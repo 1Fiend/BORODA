@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>2212667680000</ElapsedGameTime>
+  <ElapsedGameTime>2236657280000</ElapsedGameTime>
   <SessionName>BORODA</SessionName>
   <SpectatorPosition>
-    <Position x="-371.25" y="407.49999999999994" z="-576.25" />
+    <Position x="-371.25004403202433" y="407.50003096741534" z="-576.25006887801442" />
     <Forward x="0.577350259" y="0.577350259" z="-0.577350259" />
     <Up x="-0.4082483" y="0.8164966" z="0.4082483" />
   </SpectatorPosition>
-  <CameraController>ThirdPersonSpectator</CameraController>
-  <CameraEntity>0</CameraEntity>
-  <ControlledObject>172270175279707481</ControlledObject>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>145159161804808711</CameraEntity>
+  <ControlledObject>145159161804808711</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2015-03-15T22:20:56.8018186+03:00</LastSaveTime>
+  <LastSaveTime>2015-03-16T00:16:53.9933197+03:00</LastSaveTime>
   <WorldID>b407d243-153c-40c2-b48b-2a43a4d9672c</WorldID>
   <SpectatorDistance>24.6845322</SpectatorDistance>
   <ConnectedPlayers>
@@ -173,14 +173,7 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">172270175279707481</Key>
-        <Value xsi:type="PlayerId">
-          <ClientId>76561198020492560</ClientId>
-          <SerialId>0</SerialId>
-        </Value>
-      </item>
-      <item>
-        <Key xsi:type="xsd:long">197606071763002130</Key>
+        <Key xsi:type="xsd:long">145159161804808711</Key>
         <Value xsi:type="PlayerId">
           <ClientId>76561198020492560</ClientId>
           <SerialId>0</SerialId>
@@ -1528,7 +1521,7 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075856113</IdentityId>
       <DisplayName>Ton</DisplayName>
-      <CharacterEntityId>180660397975879572</CharacterEntityId>
+      <CharacterEntityId>145159161804808711</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.575" y="0.15" z="0.2" />
     </MyObjectBuilder_Identity>
@@ -1874,6 +1867,21 @@
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
     </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856182</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856183</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856184</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
   </Identities>
   <PreviousEnvironmentHostility>NORMAL</PreviousEnvironmentHostility>
   <AllPlayersData>
@@ -2060,7 +2068,7 @@
             <CameraControllerSettings EntityId="172270175279707481">
               <IsFirstPerson>false</IsFirstPerson>
               <Distance>24.684531313160104</Distance>
-              <HeadAngle x="10.2000246" y="356.0625" />
+              <HeadAngle x="19.9875259" y="358.425079" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="200817674010971364">
               <IsFirstPerson>false</IsFirstPerson>
