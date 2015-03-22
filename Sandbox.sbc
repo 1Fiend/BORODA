@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>2383061920000</ElapsedGameTime>
+  <ElapsedGameTime>2804308320000</ElapsedGameTime>
   <SessionName>BORODA</SessionName>
   <SpectatorPosition>
-    <Position x="-371.25" y="407.49999999999994" z="-576.25" />
+    <Position x="-371.25029470912" y="407.50033690883447" z="-576.25059505169042" />
     <Forward x="0.577350259" y="0.577350259" z="-0.577350259" />
     <Up x="-0.4082483" y="0.8164966" z="0.4082483" />
   </SpectatorPosition>
   <CameraController>Entity</CameraController>
-  <CameraEntity>212682191742161348</CameraEntity>
-  <ControlledObject>212682191742161348</ControlledObject>
+  <CameraEntity>166788241376940032</CameraEntity>
+  <ControlledObject>166788241376940032</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2015-03-16T18:12:34.1184401+03:00</LastSaveTime>
+  <LastSaveTime>2015-03-23T02:20:32.7826325+03:00</LastSaveTime>
   <WorldID>b407d243-153c-40c2-b48b-2a43a4d9672c</WorldID>
-  <SpectatorDistance>21.2575874</SpectatorDistance>
+  <SpectatorDistance>63.720005</SpectatorDistance>
   <ConnectedPlayers>
     <dictionary />
   </ConnectedPlayers>
@@ -24,7 +24,7 @@
   </DisconnectedPlayers>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>0</SelectedSlot>
+    <SelectedSlot xsi:nil="true" />
     <Slots>
       <Slot>
         <Index>0</Index>
@@ -33,86 +33,6 @@
           <DefinitionId>
             <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
             <SubtypeId>WelderItem</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>1</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-            <SubtypeId>AngleGrinderItem</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>2</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_ShipConnector</TypeId>
-            <SubtypeId>Connector</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>3</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_Cockpit</TypeId>
-            <SubtypeId>LargeBlockCockpitSeat</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>4</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_Thrust</TypeId>
-            <SubtypeId>LargeBlockSmallThrust</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>5</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_Gyro</TypeId>
-            <SubtypeId>LargeBlockGyro</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>6</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
-            <SubtypeId>ConveyorTubeSmallCurved</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>7</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
-            <SubtypeId>ConveyorTubeSmall</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>8</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_Conveyor</TypeId>
-            <SubtypeId>SmallBlockConveyor</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -193,7 +113,7 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">212682191742161348</Key>
+        <Key xsi:type="xsd:long">166788241376940032</Key>
         <Value xsi:type="PlayerId">
           <ClientId>76561198020492560</ClientId>
           <SerialId>0</SerialId>
@@ -235,7 +155,7 @@
     <ViewDistance>15000</ViewDistance>
     <EnableToolShake>true</EnableToolShake>
   </Settings>
-  <AppVersion>1073009</AppVersion>
+  <AppVersion>1074010</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
@@ -1541,7 +1461,7 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075856113</IdentityId>
       <DisplayName>Ton</DisplayName>
-      <CharacterEntityId>212682191742161348</CharacterEntityId>
+      <CharacterEntityId>166788241376940032</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.575" y="0.15" z="0.2" />
     </MyObjectBuilder_Identity>
@@ -2007,6 +1927,286 @@
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
     </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856206</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856207</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856208</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856209</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856210</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856211</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856212</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856213</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856214</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856215</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856216</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856217</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856218</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856219</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856220</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856221</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856222</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856223</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856224</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856225</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856226</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856227</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856228</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856229</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856230</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856231</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856232</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856233</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856234</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856235</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856236</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856237</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856238</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856239</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856240</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856241</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856242</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856243</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856244</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856245</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856246</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856247</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856248</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856249</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856250</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856251</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856252</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856253</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856254</IdentityId>
+      <DisplayName>NPC 7407</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856255</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856256</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856257</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856258</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856259</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856260</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075856261</IdentityId>
+      <DisplayName>Neutral NPC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
   </Identities>
   <PreviousEnvironmentHostility>NORMAL</PreviousEnvironmentHostility>
   <AllPlayersData>
@@ -2031,86 +2231,6 @@
                   <DefinitionId>
                     <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
                     <SubtypeId>WelderItem</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-                    <SubtypeId>AngleGrinderItem</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_ShipConnector</TypeId>
-                    <SubtypeId>Connector</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_Cockpit</TypeId>
-                    <SubtypeId>LargeBlockCockpitSeat</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_Thrust</TypeId>
-                    <SubtypeId>LargeBlockSmallThrust</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_Gyro</TypeId>
-                    <SubtypeId>LargeBlockGyro</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
-                    <SubtypeId>ConveyorTubeSmallCurved</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
-                    <SubtypeId>ConveyorTubeSmall</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>8</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_Conveyor</TypeId>
-                    <SubtypeId>SmallBlockConveyor</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -2197,8 +2317,8 @@
           <EntityCameraData>
             <CameraControllerSettings EntityId="190884245942310201">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>8.9405498504638672</Distance>
-              <HeadAngle x="-13.8374977" y="-2.362529" />
+              <Distance>12.300302180956331</Distance>
+              <HeadAngle x="43.33746" y="377.2125" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="209815193593665854">
               <IsFirstPerson>false</IsFirstPerson>
@@ -2213,7 +2333,7 @@
             <CameraControllerSettings EntityId="172270175279707481">
               <IsFirstPerson>false</IsFirstPerson>
               <Distance>8.59114627841863</Distance>
-              <HeadAngle x="7.04999542" y="-101.47477" />
+              <HeadAngle x="-28.2750282" y="-6.97476149" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="200817674010971364">
               <IsFirstPerson>false</IsFirstPerson>
@@ -2242,8 +2362,13 @@
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="195834840669949176">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>21.257586871380326</Distance>
-              <HeadAngle x="-22.6125469" y="0.337469429" />
+              <Distance>20.275125563895767</Distance>
+              <HeadAngle x="16.9499912" y="356.4006" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="159937001198717646">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>63.720006688648226</Distance>
+              <HeadAngle x="-25.5125656" y="32.62577" />
             </CameraControllerSettings>
           </EntityCameraData>
         </Value>
@@ -2467,7 +2592,9 @@
     </MyObjectBuilder_ChatHistory>
   </ChatHistory>
   <FactionChatHistory />
-  <NonPlayerIdentities />
+  <NonPlayerIdentities>
+    <long>144115188075856254</long>
+  </NonPlayerIdentities>
   <Gps>
     <dictionary>
       <item>
